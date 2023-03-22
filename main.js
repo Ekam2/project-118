@@ -19,6 +19,10 @@ function draw() {
   }
 }
 
+function clearCanvas(){
+background("white");
+}
+
 function check_sketch() {
   timer_counter++;
   document.getElementById("timer").innerHTML = "Timer: " + timer_counter;
